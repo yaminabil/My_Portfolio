@@ -1,28 +1,21 @@
 .App {
   text-align: center;
-  font-family: "Abril Fatface";
+  font-family: "Kosugi", sans-serif;
   font-style: normal;
 
   /* background-size: cover; */
 }
 
 .main_container {
-  border: solid red;
+  /* border: solid tomato; */
+  background-color: #526a7f;
+  padding: 3vw;
   margin: 0 auto;
   width: 65%;
   height: 120vw;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
-.left_container {
-  border: solid red;
-  width: 15%;
-  font-size: 0.8vw;
-}
-.right_container {
-  border: solid red;
-  width: 15%;
-  font-size: 0.8vw;
-}
+
 /* https://cdn.dribbble.com/users/7379292/screenshots/15401203/media/a452ce0193001e90bc3d93853b33f9fa.gif */
 /* https://www.fleetscience.org/sites/default/files/images/ai%20gif.gif */
 /* https://www.jeeng.com/wp-content/uploads/2017/07/AI.gif */

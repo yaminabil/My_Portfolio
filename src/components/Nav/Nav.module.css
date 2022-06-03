@@ -1,29 +1,33 @@
 .main {
-  /* background-color: blue; */
 }
 .ul_nav {
   list-style: none;
-  border-bottom: solid tomato;
+  border-bottom: 2px solid tomato;
   height: 2vw;
   padding-left: 0;
   text-align: center;
   font-size: 1vw;
   letter-spacing: 0.2rem;
-  color: tomato;
-
-  width: 70%;
+  color: var(--clickable-items);
+  font-weight: 530;
+  width: 60%;
   margin: 5vw auto;
 }
 
 .ul_nav > li {
   display: inline;
-  margin-left: 2vw;
-  border-right: solid tomato;
+  padding-left: 2vw;
+  border-right: 2px solid tomato;
   padding: 1vw;
   padding-right: 2vw;
 }
 
 .ul_nav > li:hover {
   background-color: tomato;
-  color: white;
+  transition: 0.7s;
+}
+
+.active {
+  background-color: tomato;
+  /* color: var(--paragraph-color); */
 }

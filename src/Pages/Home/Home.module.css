@@ -1,0 +1,51 @@
+.main {
+  height: 20vw;
+  margin-top: 5vw;
+  position: relative;
+}
+
+.content {
+  z-index: 1000;
+  padding-left: 1vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 60%;
+}
+.content > h1 {
+  /* color: rgb(0, 0, 97); */
+  color: tomato;
+  font-size: 3vw;
+}
+.content > p {
+  font-size: 2vw;
+  color: var(--paragraph-color);
+  text-align: justify;
+  line-height: 4rem;
+  font-family: "Kosugi", sans-serif;
+}
+
+.gif_home {
+  /* border: solid rgb(0, 0, 97); */
+  width: 70%;
+  background-image: url(https://cdn.dribbble.com/users/7379292/screenshots/15401203/media/a452ce0193001e90bc3d93853b33f9fa.gif);
+  background-size: cover;
+  border-radius: 100px;
+  opacity: 0.2;
+  height: 40vw;
+  z-index: 2;
+  float: right;
+  /* box-shadow: 1rem 1rem 1rem 2rem; */
+}
+
+.span {
+  color: tomato;
+}
+
+/* https://cdn.dribbble.com/users/7379292/screenshots/15401203/media/a452ce0193001e90bc3d93853b33f9fa.gif */
+/* https://www.fleetscience.org/sites/default/files/images/ai%20gif.gif */
+/* https://www.jeeng.com/wp-content/uploads/2017/07/AI.gif */
+/*https://cdn1.vectorstock.com/i/1000x1000/27/15/cartoon-man-and-artificial-intelligence-robot-vector-19572715.jpg*/
+/* https://sloanreview.mit.edu/wp-content/uploads/2019/02/GEN-Kardon-AI-B2B-Marketing-2400.jpg*/
+/* https://miro.medium.com/max/1200/1*Pn0AwwjNo7XWiq_IYH7xmw.jpeg */

@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <div className={styles.main}>
       <div className={styles.name}>
-        <h1>Bilal Younes </h1>
+        <h1>BiLaL YouneS </h1>
       </div>
 
       <div className={styles.logo}>

@@ -1,8 +1,17 @@
 import styles from "./Main.module.css";
-export default function Main() {
+import Home from "../../Pages/Home/Home";
+import Projects from "../../Pages/Projects/Project";
+import Resume from "../../Pages/Resume/Resume";
+import Contact from "../../Pages/Contact/Contact";
+
+export default function Main(props) {
+  const active = props.active;
   return (
     <div className={styles.main}>
-      <h1> here is main </h1>
+      {active == "home" ? <Home /> : <></>}
+      {active == "projects" ? <Projects /> : <></>}
+      {active == "resume" ? <Resume /> : <></>}
+      {active == "contact" ? <Contact /> : <></>}
     </div>
   );
 }
