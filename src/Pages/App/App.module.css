@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-style: normal;
+
+  /* background-size: cover; */
+}
+
+.main_container {
+  border: solid red;
+  margin: 0 auto;
+  width: 65%;
+  height: 120vw;
+  border-radius: 20px;
+}
+.left_container {
+  border: solid red;
+  width: 15%;
+  font-size: 0.8vw;
+}
+.right_container {
+  border: solid red;
+  width: 15%;
+  font-size: 0.8vw;
+}
+/* https://cdn.dribbble.com/users/7379292/screenshots/15401203/media/a452ce0193001e90bc3d93853b33f9fa.gif */
+/* https://www.fleetscience.org/sites/default/files/images/ai%20gif.gif */
+/* https://www.jeeng.com/wp-content/uploads/2017/07/AI.gif */
+/*https://cdn1.vectorstock.com/i/1000x1000/27/15/cartoon-man-and-artificial-intelligence-robot-vector-19572715.jpg*/
+/* https://sloanreview.mit.edu/wp-content/uploads/2019/02/GEN-Kardon-AI-B2B-Marketing-2400.jpg*/
+/* https://miro.medium.com/max/1200/1*Pn0AwwjNo7XWiq_IYH7xmw.jpeg */

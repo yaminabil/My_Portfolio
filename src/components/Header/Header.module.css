@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Roboto+Mono:wght@100&family=Square+Peg&display=swap");
+
+.main {
+  padding: 40px 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  font-family: "Kosugi", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.name {
+  font-size: 0.8vw;
+  letter-spacing: 0.2rem;
+  color: tomato;
+}
