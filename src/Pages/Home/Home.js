@@ -7,7 +7,7 @@ export default function Home() {
         <p>
           <span className={styles.span}>&#60; &#62;</span> &nbsp; A junior Web
           Developer with a Bachelor's Degree in Computer Science, coding
-          bootcamp graduate, and self taught programmer &nbsp;{" "}
+          bootcamp graduate, and self taught programmer &nbsp;
           <span className={styles.span}>&#60;/&#62;</span>
         </p>
         <br />

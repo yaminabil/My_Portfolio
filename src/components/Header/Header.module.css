@@ -16,3 +16,8 @@
   color: var(--clickable-items);
   font-weight: 600;
 }
+
+.logo {
+  color: tomato;
+  font-size: larger;
+}

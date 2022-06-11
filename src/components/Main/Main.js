@@ -1,6 +1,6 @@
 import styles from "./Main.module.css";
 import Home from "../../Pages/Home/Home";
-import Projects from "../../Pages/Projects/Project";
+import Projects from "../../Pages/Projects/Projects";
 import Resume from "../../Pages/Resume/Resume";
 import Contact from "../../Pages/Contact/Contact";
 

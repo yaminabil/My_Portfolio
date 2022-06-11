@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color: tomato;
+  font-size: 3vw;
+}
+
+.left_side {
+  width: 30%;
+  border-right: solid tomato;
+  text-align: left;
+}
+
+.right_side {
+  width: 60%;
+  text-align: left;
+}
+.span {
+  color: tomato;
+}
